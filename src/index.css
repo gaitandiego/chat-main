@@ -1,0 +1,38 @@
+body {
+    background-color: #F0F2F5;
+    height: -webkit-fill-available;
+}
+
+.btn-primary {
+    background-color: #54656f;
+    border-color: #54656f;
+}
+
+.btn-primary:hover {
+    background-color: #434f57;
+    border-color: #434f57;
+}
+
+.btn:first-child:active {
+    background-color: #2a3136;
+    border-color: #2a3136;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

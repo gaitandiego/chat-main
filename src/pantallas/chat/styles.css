@@ -1,0 +1,54 @@
+.chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat .chat-container {
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    justify-content: space-between;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 30%), 0px 2px 10px 0px rgb(0 0 0 / 50%), 0px 1px 5px 0px rgb(0 0 0 / 12%)
+}
+
+.chat .chat-container .chat-container-chats {
+    padding: 10px;
+    flex: 1
+}
+
+.chat .chat-container .chat-container-mensajes {
+    flex: 3;
+    background-color: #EFEAE2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chat .chat-container .chat-container-mensajes .chat-container-mensajes-items {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    flex: 1
+}
+
+.salir-cuenta-mobile {
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.salir-cuenta {
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.salir {
+    cursor: pointer;
+}

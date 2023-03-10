@@ -1,0 +1,14 @@
+.chat-mensajes {
+    background-color: #F0F2F5;
+    padding: 15px;
+}
+
+.chat-mensajes-container {
+    display: flex;
+    justify-content: end;
+}
+
+.chat-mensajes-container .form-control {
+    border-radius: 0;
+    margin-right: 10px;
+}
